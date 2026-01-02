@@ -27,8 +27,11 @@
       "permissions": [
         "RECEIVE_BOOT_COMPLETED",
         "VIBRATE",
-        "SCHEDULE_EXACT_ALARM"
-      ]
+        "SCHEDULE_EXACT_ALARM",
+        "POST_NOTIFICATIONS"
+      ],
+      "targetSdkVersion": 35,
+      "compileSdkVersion": 35
     },
     "plugins": [
       [
