@@ -1,0 +1,37 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- 배경 -->
+  <rect width="1024" height="1024" rx="220" fill="#6B9DFC"/>
+  
+  <!-- 그라데이션 오버레이 -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7BA8FC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5A8DE8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="220" fill="url(#bgGradient)"/>
+  
+  <!-- 메인 체크박스 (둥근 사각형) -->
+  <rect x="280" y="300" width="464" height="464" rx="80" fill="white" opacity="0.95"/>
+  
+  <!-- 체크마크 -->
+  <path d="M380 540 L480 640 L680 420" 
+        stroke="#6B9DFC" 
+        stroke-width="64" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        fill="none"/>
+  
+  <!-- 작은 반복 아이콘 (우측 상단) -->
+  <circle cx="720" cy="320" r="90" fill="#FFE4E6"/>
+  <path d="M680 320 A40 40 0 1 1 720 280 M720 280 L740 300 M720 280 L700 300" 
+        stroke="#BE123C" 
+        stroke-width="12" 
+        stroke-linecap="round" 
+        fill="none"/>
+  
+  <!-- 작은 시계 아이콘 (좌측 하단) -->
+  <circle cx="304" cy="744" r="70" fill="#D1FAE5"/>
+  <circle cx="304" cy="744" r="50" fill="none" stroke="#047857" stroke-width="10"/>
+  <path d="M304 714 L304 744 L324 760" stroke="#047857" stroke-width="10" stroke-linecap="round"/>
+</svg>

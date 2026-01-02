@@ -1,0 +1,70 @@
+<svg width="1284" height="2778" viewBox="0 0 1284 2778" xmlns="http://www.w3.org/2000/svg">
+  <!-- 배경 -->
+  <rect width="1284" height="2778" fill="#F8FAFC"/>
+  
+  <!-- 상단 장식 원 -->
+  <circle cx="100" cy="200" r="300" fill="#E8F0FE" opacity="0.5"/>
+  <circle cx="1184" cy="400" r="200" fill="#D1FAE5" opacity="0.4"/>
+  
+  <!-- 하단 장식 원 -->
+  <circle cx="1200" cy="2600" r="350" fill="#E8F0FE" opacity="0.5"/>
+  <circle cx="150" cy="2400" r="250" fill="#FEF3C7" opacity="0.4"/>
+  
+  <!-- 중앙 아이콘 영역 -->
+  <g transform="translate(392, 1050)">
+    <!-- 아이콘 배경 -->
+    <rect width="500" height="500" rx="110" fill="#6B9DFC"/>
+    
+    <!-- 그라데이션 -->
+    <defs>
+      <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#7BA8FC;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#5A8DE8;stop-opacity:1" />
+      </linearGradient>
+    </defs>
+    <rect width="500" height="500" rx="110" fill="url(#iconGrad)"/>
+    
+    <!-- 체크박스 -->
+    <rect x="115" y="125" width="270" height="270" rx="50" fill="white" opacity="0.95"/>
+    
+    <!-- 체크마크 -->
+    <path d="M165 265 L225 325 L355 185" 
+          stroke="#6B9DFC" 
+          stroke-width="36" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" 
+          fill="none"/>
+    
+    <!-- 반복 아이콘 -->
+    <circle cx="370" cy="140" r="50" fill="#FFE4E6"/>
+    <path d="M345 140 A25 25 0 1 1 370 115 M370 115 L385 128 M370 115 L357 128" 
+          stroke="#BE123C" 
+          stroke-width="7" 
+          stroke-linecap="round" 
+          fill="none"/>
+    
+    <!-- 시계 아이콘 -->
+    <circle cx="130" cy="400" r="40" fill="#D1FAE5"/>
+    <circle cx="130" cy="400" r="28" fill="none" stroke="#047857" stroke-width="6"/>
+    <path d="M130 382 L130 400 L145 412" stroke="#047857" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- 앱 이름 -->
+  <text x="642" y="1680" 
+        font-family="Arial, sans-serif" 
+        font-size="72" 
+        font-weight="bold" 
+        fill="#1E293B" 
+        text-anchor="middle">
+    The 1-Click Task
+  </text>
+  
+  <!-- 서브타이틀 -->
+  <text x="642" y="1760" 
+        font-family="Arial, sans-serif" 
+        font-size="36" 
+        fill="#64748B" 
+        text-anchor="middle">
+    반복 일정을 한 번에
+  </text>
+</svg>

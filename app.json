@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "The 1-Click Task",
+    "slug": "the-1-click-task",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F8FAFC"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.oneclick.task"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#F8FAFC"
+      },
+      "package": "com.oneclick.task",
+      "permissions": [
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE",
+        "SCHEDULE_EXACT_ALARM"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "sounds": []
+        }
+      ]
+    ]
+  }
+}
