@@ -41,10 +41,10 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "1bff7906-2a4d-4267-8948-064358229e2c"
+        "projectId": "94fed080-4424-41e3-a9e9-08651e3cf431"
       }
     },
-    "owner": "haohao10",
+    "owner": "wuhao3",
     "runtimeVersion": {
       "policy": "appVersion"
     }
